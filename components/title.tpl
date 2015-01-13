@@ -5,7 +5,7 @@
    </div>
 {% if site.search.enabled %}
 <div id="search">
-<form action="">
+<form action="" class="edys-search">
 <div><input type="text" id="onpage_search"/><input type="submit" class="search-submit" value=""/></div>
 </form>
 </div>
