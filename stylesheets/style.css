@@ -8,6 +8,27 @@ white-space: normal;
 }
 body {background:#292024 url('../images/brasilia-b.png?1'); font: 13px/21px Arial, Helvetica, sans-serif; color:#31382e;}
 img {border: none;}
+
+/* Editable content image */
+.edy-positionable-container-left {
+  margin-right: 15px;
+}
+.edy-positionable-container-right {
+  margin-left: 15px;
+}
+.edy-image-container-with-title:after {
+  display: block;
+  padding: 4px;
+  font-size: 10px;
+  line-height: 1.3em;
+  content: attr(data-title);
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 a {color:#559a2c; text-decoration:underline;}
 a:hover {text-decoration: none;}
 a.none {text-decoration: none;}
