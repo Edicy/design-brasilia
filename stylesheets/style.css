@@ -72,7 +72,6 @@ div#titleTop {
 	}
 div#body {
 	width:616px;
-	overflow:hidden;
 background: white;
 }
 .bgLeafLeft {
@@ -173,7 +172,6 @@ div#mainmenu {
 	height:229px;
 	min-height:229px;
 	padding:0 0 0 30px;
-	overflow:hidden;
 }
 	#mainmenu a {
   color:#fff;
@@ -294,7 +292,7 @@ div#comments h2 {
 }
 #footer {
 	margin:0;
-	padding:18px 35px 2px 35px;
+	padding:18px 35px 3px 35px;
 	color:#fff;
 	background:#3b8a0c;
 }

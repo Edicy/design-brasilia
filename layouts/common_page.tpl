@@ -10,7 +10,7 @@
 	<div id="bodyContainer">
   <div class="bgLeafLeft left">
   </div>
-  <div id="body" class="left">
+  <div id="body" class="left clearfix">
    {% include "Title" %}
    {% include "Mainmenu" %}
    <div id="content" class="blog clearfix">

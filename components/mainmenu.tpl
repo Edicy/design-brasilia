@@ -1,4 +1,4 @@
-   <div id="mainmenu">
+   <div id="mainmenu" class="clearfix">
     <p>
      {% unless site.root_item.hidden? %}<a href="{{ site.root_item.url }}"{% if site.root_item.current? %} class="active"{% endif %}>{{site.root_item.title}}</a>{% endunless %}
      {% for item in site.visible_menuitems %}
