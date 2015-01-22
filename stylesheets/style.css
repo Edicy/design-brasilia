@@ -1,5 +1,7 @@
 .clearfix:after {
-  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 body, p {margin:0; padding:0;}
@@ -8,6 +10,14 @@ white-space: normal;
 }
 body {background:#292024 url('../images/brasilia-b.png?1'); font: 13px/21px Arial, Helvetica, sans-serif; color:#31382e;}
 img {border: none;}
+
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 
 /* Editable content image */
 .edy-positionable-container-left {
@@ -213,13 +223,6 @@ div#content {
 	min-height:151px;
 	height:auto !important;
 	height:151px;
-}
-.content-hyphenate {
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
 }
 	#content .hr, #content .hrr {
   border-top: 1px solid #e1f2d7;
