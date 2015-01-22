@@ -21,7 +21,7 @@
     <span class="green">{{ article.author.name }}</span>,
     <a href="#comments" class="none">{{"comments_for_count"|lc}}: <span class="edy-site-blog-comments-count">{{ article.comments_count }}</span></a></div>	
     
-    <p class="clearfix" data-search-indexing-allowed="true">
+    <p class="clearfix content-hyphenate" data-search-indexing-allowed="true">
      {% editable article.excerpt %}
      <br /><br />
      {% editable article.body %}
@@ -34,7 +34,7 @@
      <div class="br"></div>
      
      {% for comment in article.comments %}
-     <div class="edy-site-blog-comment">
+     <div class="edy-site-blog-comment content-hyphenate">
      <div class="L">
       <p>
        <strong>{% removebutton %} {{ comment.author }}</strong><br />

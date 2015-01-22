@@ -214,6 +214,13 @@ div#content {
 	height:auto !important;
 	height:151px;
 }
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 	#content .hr, #content .hrr {
   border-top: 1px solid #e1f2d7;
   font-size: 1px;
