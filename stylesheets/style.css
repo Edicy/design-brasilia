@@ -323,6 +323,14 @@ div#comments h2 {
   width:363px;
   text-align:left;
 	}
+  #content .edy-btn-removecomment {
+    position: relative;
+    top: 1px;
+    line-height: 0 !important;
+  }
+  #content .edy-site-blog-comment:hover .edy-btn-removecomment {
+    text-decoration: none;
+  }
 #bgfooter {
 	padding:0 50px 0 51px;
 }
@@ -467,3 +475,4 @@ body .add-article {
   display: inline-block !important;
   text-decoration: none;
 }
+
